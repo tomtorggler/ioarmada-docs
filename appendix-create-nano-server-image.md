@@ -4,7 +4,7 @@ Download the Nano Server VHD file from the [TechNet Eval Center](https://www.mic
 
 # VMware Drivers
 
-VMware drivers for networking and the paravirtual SCSI adapter have to be injected into the VHD file as well as into the boot.wim used by WDS.
+VMware drivers for networking and the paravirtual SCSI controller have to be injected into the VHD file as well as into the boot.wim used by WDS.
 
 ## VHD File
 
@@ -43,5 +43,12 @@ At this point, we are ready to deploy a new Nano Server virtual machine using WD
 * 4 vCPU
 
 * 4GB Memory
-* 
 
+* 140GB Hard Disk
+
+* VMware Paravirtual SCSI Controller
+
+* vmxnet3 Network Adapter
+
+
+Start the VM and connect to a console window. As no operating system should be present, the VM should PXE boot and the Nano Server image can be installed from WDS. Once installed, log into the Nano Server console using Administrator without password. The password must be reset upon first login.
