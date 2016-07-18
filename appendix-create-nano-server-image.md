@@ -51,4 +51,7 @@ At this point, we are ready to deploy a new Nano Server virtual machine using WD
 * vmxnet3 Network Adapter
 
 
-Start the VM and connect to a console window. As no operating system should be present, the VM should PXE boot and the Nano Server image can be installed from WDS. Once installed, log into the Nano Server console using Administrator without password. The password must be reset upon first login.
+Start the VM and connect to a console window. As no operating system should be present, the VM should PXE boot and the Nano Server image can be installed from WDS. Once installed, log into the Nano Server console using Administrator without password. The password must be reset upon first login:
+
+![](/assets/nano_login_change_pw.png)
+
