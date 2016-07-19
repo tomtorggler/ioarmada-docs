@@ -4,10 +4,12 @@ To get the IP address of the deployed worker node, log into the VM console and s
 
 ![](/assets/nano_rc_network.png)
 
+The following variables are used throughout this document, please specify the worker node's IP address as well as the password for the local Administrator account.
 
-
+```
 $NanoIP = "169.254.60.172"
 $NanoPass = "myPassw0rd"
+```
 
 # Copy Files
 
