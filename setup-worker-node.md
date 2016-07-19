@@ -1,13 +1,14 @@
 # Get IP Address
 
-To get the IP address of the deployed Nano Server use either of the following possibilities.
+To get the IP address of the deployed worker node, log into the VM console and select Networking from the "Nano Server Recovery Console"
 
-## Login to VM console
+![](/assets/nano_rc_network.png)
 
-```
+
+
+
 $NanoIP = "169.254.60.172"
 $NanoPass = "myPassw0rd"
-```
 
 # Copy Files
 
