@@ -6,7 +6,6 @@ To get the IP address of the deployed worker node, log into the VM console and s
 
 
 
-
 $NanoIP = "169.254.60.172"
 $NanoPass = "myPassw0rd"
 
